@@ -1,4 +1,3 @@
-//Stephanie Carolline Amarante - RA2040482222049
 // Stephanie Carolline Amarante - RA2040482222049
 #include <stdio.h>
 #include <stdlib.h>
