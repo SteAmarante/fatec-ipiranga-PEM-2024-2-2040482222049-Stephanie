@@ -1,5 +1,4 @@
-//Stephanie Carolline Amarante - RA2040482222049
- // Inclui as bibliotecas necessárias
+//Stephanie Carolline Amarante - RA2040482222049// Inclui as bibliotecas necessárias
 #include <stdio.h>
 #include <stdlib.h>
 
