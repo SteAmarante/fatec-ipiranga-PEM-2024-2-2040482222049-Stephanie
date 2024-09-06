@@ -1,1 +1,43 @@
 
+Atividade N1-4- Implementação da jogada "Xeque Pastor"
+Vence hoje às 23:59
+Instruções
+Vimos que uma matriz multidimensional em C é uma estrutura de dados que permite armazenar e acessar elementos organizados em várias dimensões.
+
+Fizemos exercícios para implementar matriz bidimensional, dando ênfase à implementação da montagem das posições iniciais de um tabuleiro de xadrez.
+
+Demonstramos também uma jogada muito famosa, no mundo do enxadristas, qual seja, o "Xeque Pastor". Esta jogada consiste em finalizar o jogo, por "Xeque Mate" em 3 lances (Regra: As peças brancas, sempre iniciam o jogo).
+
+ Neste cenário pede-se:
+Desenvolva um código (linguagem C) que, a partir do tabuleiro montado (Atividade N1-3), seja simulado os 3 lances do "Xeque Pastor". 
+Considere que, para cada lance, temos 1 jogada das peças brancas e em seguida, uma joga das peças pretas.
+Demonstre no tabuleiro a posição origem da peça  e a sua posição final na jogada. Exemplo: Quando movimentar o Peão do Rei (branco), deverá ser sinalizado com "..." o local original e "PB5" no local final (Veja figura 1)
+Demonstre os 4 laces (Cada lance temos 1 lance das Brancas e 1 lance das Pretas) do cheque pastor:
+Jogada #1: 
+Brancas jogam Peão do Rei (e1)
+Pretas jogam Peão do Rei (e5)  
+Jogada #2: 
+Brancas jogam Bispo do rei (Bc4) 
+Pretas jogam Cavalo da Dama (Cc6) 
+
+Jogada #3: 
+Brancas jogam Dama (Dh5)
+Pretas jogam Cavalo do Rei (Cf6) 
+Jogada #4: Xeque Mate 
+Brancas capturam Peão do Rei e dão Xeque Mate: Dxf7#  
+
+
+
+
+Figura 1: Exemplo de demonstração de lance: Posição origem :"..." e Posição final PB5
+
+
+Veja no arquivo anexo, o print de cada jogada. Note que coloquei ao lado a visualização da jogada em um tabuleiro natural.
+
+Esta Atividade  é parte integrante da avaliação N1, e seu valor é de até 1,0 (um) ponto, portanto a avaliação que você fará presencialmente valerá 9,0.
+
+Local de entrega: 
+                               Deverá ser entregue SOMENTE aqui no TEAMS
+
+Forma de entrega:
+                                Arquivo fonte no formato .txt
