@@ -1,3 +1,10 @@
+/* Disciplina: Programaçao Estruturada e Modular
+Prof. Carlos Veríssimo                                    
+--------------------------------------------------------
+Objetivo do Programa: Cheque Pastor    
+Data - 06/09/2024                                                
+Autores: Stephanie Carolline Amarante - RA 2040482222049*/
+
 #include <stdio.h>
 
 // Estrutura para representar uma peça no tabuleiro
