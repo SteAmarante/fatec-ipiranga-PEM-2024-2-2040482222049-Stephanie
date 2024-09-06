@@ -1,7 +1,7 @@
 /* Disciplina: Programaçao Estruturada e Modular
 Prof. Carlos Veríssimo                                    
 --------------------------------------------------------
-Objetivo do Programa: Cheque Pastor    
+Objetivo do Programa: Xeque Pastor    
 Data - 06/09/2024                                                
 Autores: Stephanie Carolline Amarante - RA 2040482222049*/
 
