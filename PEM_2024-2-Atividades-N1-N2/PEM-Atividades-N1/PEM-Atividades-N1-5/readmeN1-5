@@ -1,0 +1,24 @@
+Atividade N1-5 - Refatorando para modularizar código
+Vence 13 de setembro de 2024 às 23:59
+Instruções
+Vimos à aula #5  que refinamento sucessivo 2 nada mais ´e do que a redu¸cao de um problema a um conjunto de tarefas destinadas a soluciona-lo de maneira eficiente. Para cada tarefa, desenvolve-se um algoritmo/programa (modulo) que podera ser utilizado na solução de outros problemas, pois cada módulo é  independente.
+
+Neste sentido, Pede-se:
+
+Utilizar o programa que consta anexo (Implementação da jogada "Xeque Pastor") e fazer a refatoração. Este programa deverá ser molularizado para atender ao paradigamada programação modular.
+
+Durante o processo de refatoração, você deverá focar em identificar as diferentes partes do programa e agrupá-las de acordo com sua natureza e responsabilidade. Deverão ser criados  módulos independentes para cada uma dessas partes, garantindo que a comunicação entre eles seja feita de forma eficiente e transparente.
+
+Ao final desta atividade, esperamos ter um programa modularizado, onde cada módulo seja responsável por uma única funcionalidade bem definida, contribuindo para a melhoria da qualidade do código e facilitando seu gerenciamento e evolução contínua.
+
+Pontos que deverão ser refatorados:
+Adequação dos nomes de variáveis 
+Indentação do código
+pontos de inclusão de comentários chaves
+Modularização do código
+
+Deverão ser produzidos, e entregues,  2 artefatos
+Diagrama de blocos da solução refatorada
+Programa fonte refatorado na lingiagem C
+Esta atividade deverá ser entregue em  GitHub na pasta referente à atividae "PEM-Atividade-N1-5"
+Materiais de referência
