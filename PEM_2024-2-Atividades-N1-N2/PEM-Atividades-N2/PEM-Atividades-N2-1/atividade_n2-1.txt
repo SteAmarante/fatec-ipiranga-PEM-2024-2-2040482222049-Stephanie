@@ -1,0 +1,65 @@
+/* Disciplina: Programaçao Estruturada e Modular
+Prof. Carlos Veríssimo                                    
+--------------------------------------------------------
+Objetivo do Programa: tabuleiro de xadrez      
+Data - 27/09/2024                                                
+Autores: Stephanie Carolline Amarante - RA 2040482222049*/
+
+
+#include <stdio.h>
+
+// Função para trocar dois valores de posição
+void trocar(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
+// Função para realizar o algoritmo de ordenação Bubble Sort
+void ordenacaoBolha(int vetor[], int tamanho) {
+    for (int i = 0; i < tamanho - 1; i++) {
+        for (int j = 0; j < tamanho - i - 1; j++) {
+            if (vetor[j] > vetor[j + 1]) {
+                trocar(&vetor[j], &vetor[j + 1]);
+            }
+        }
+    }
+}
+
+// Função para imprimir o vetor
+void imprimirVetor(int vetor[], int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        printf("%d ", vetor[i]);
+    }
+    printf("\n");
+}
+
+// Função principal
+int main() {
+    int tamanho;
+
+    // Solicita a quantidade de elementos do vetor
+    printf("Insira a quantidade de elementos: ");
+    scanf("%d", &tamanho);
+
+    int vetor[tamanho];
+
+    // Entrada dos elementos do vetor
+    printf("Insira %d números:\n", tamanho);
+    for (int i = 0; i < tamanho; i++) {
+        scanf("%d", &vetor[i]);
+    }
+
+    // Exibe o vetor original
+    printf("Vetor original: ");
+    imprimirVetor(vetor, tamanho);
+
+    // Chama a função de ordenação Bubble Sort
+    ordenacaoBolha(vetor, tamanho);
+
+    // Exibe o vetor ordenado
+    printf("Vetor ordenado: ");
+    imprimirVetor(vetor, tamanho);
+
+    return 0;
+}
