@@ -1,0 +1,63 @@
+Atividade_N1_2: Praticando acesso a vetores
+
+Instruções
+
+Vetores são uma estrutura fundamental em linguagens de programação como a linguagem C, oferecendo uma maneira poderosa e eficaz de armazenar uma coleção de elementos do mesmo tipo, acessíveis por meio de um ´unico identificador. Os vetores, também conhecidos como arrays em algumas linguagens
+de programação, representam uma das estruturas de dados mais fundamentais e amplamente utilizadas na computação.
+
+Abaixo, temos a apresentação de um problema, da vida prática e você deverá desenvolver uma solução, em linguagem de programação C, utilizando os paradigmas de dados heterogêneos, e imlementação de vetores.
+
+Problema Proposto:
+
+Uma empresa de TI, faz a seleção para estagiários uma vez ao ano. No processo de seleção, são selecionados  20 candidatos uma prova final, na qual eles respondem a uma "bateria de testes"; Raciocínio lógico, conceitos de gerenciamento de projetos, lingua inglesa, conceitos de metodologia ágil e linguagem javascript.
+
+ Cada teste  recebe N notas que variam de 0,0 a 10,0. A nota final de classificação de cada candidato é a soma das notas centrais recebidas em cada teste, excluindo
+a maior e a menor entre as N notas.
+
+Como existem muitos candidatos, o RH da empresa  pediu que você escrevesse um programa que, dadas as notas do candidato, calcula a sua nota final.
+
+A entrada é composta por vários conjuntos de teste de um mesmo candidato. A primeira linha contém um inteiro N com (N>2), que representa a quantidade de notas a serem lidas. A linha seguinte representa as N notas separados por espaço. A entrada termina quando N = 0.
+
+Exemplo:
+      Suponha que um bateria de teste  seja composta da seguinte forma:
+ Raciocínio lógico = 4 questões
+ conceitos de gerenciamento de projetos=5 questões
+ lingua inglesa=4 questões
+conceitos de metodologia ágil= 6 questões
+linguagem javascript= 5 questões
+Vamos supor também o primeiro candidato tirou as seguintes notas (por teste):
+ Raciocínio lógico = 10,0   5,0   7,0   3,0 
+ conceitos de gerenciamento de projetos= 5,0    3,0   8,0   9,0  7,0 
+ lingua inglesa=7,0  5,0  5,0  8,0
+conceitos de metodologia ágil= 3,0  4,0  7,0  9,0  8,0  10,0
+linguagem javascript= 8,0   4,0   5,0   10,0   7,0
+
+Logo, teremos 5 conjuntos de entradas de dados para este candidato, assim:
+4
+10,0   5,0   7,0   3,0
+5
+5,0    3,0   8,0   9,0  7,0 
+4
+7,0  5,0  5,0  8,0
+6 
+3,0  4,0  7,0  9,0  8,0  10,0
+5
+ 8,0   4,0   5,0   10,0   7,0
+Saida:
+Nota  Raciocínio lógico=12
+Nota   conceitos de gerenciamento de projetos=20
+Nota  lingua inglesa=12
+Nota  conceitos de metodologia ágil=28
+Nota linguagem javascript=20
+ Nota final do candidato = 92
+
+Elementos técnicos esperados
+Programa na linguagem C
+Implmentação de vetor para receber todas as notas
+Implementação de vetor para receber todas provas (lembre-se: O aluno pode fazer n provas
+
+Pede-se:: 
+Produzir 1 PDF com o Diagrama de blocos da solução
+Programa fonte na linguagem C 
+Este 2 artefatos deverão ser entregues em Github, na pasta relativa à atividae N1-2.
+
